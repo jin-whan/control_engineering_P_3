@@ -80,11 +80,15 @@ $$R(s)=s^3Z(s)+5s^2Z(s)-23sZ(s)+2Z(s)$$
 
 $$y(t)=\dot{z}(t)+2z(t)$$
 
-$$r(t)=\ddot{z}\dot{}(t)+5\ddot{z}(t)-23\dot{z}(t)+2z(t) $$
+$$r(t)=z^{(3)}(t)+5\ddot{z}(t)-23\dot{z}(t)+2z(t) $$
 
-$$\ddot{z}\dot{}(t)=-2z(t)+23\dot{z}(t)-5\ddot{z}(t)+r(t) $$
+$$z^{(3)}(t)=-2z(t)+23\dot{z}(t)-5\ddot{z}(t)+r(t) $$
 
-$$x_1=z\\\\x_2=\dot{z}\\\\x_3=\ddot{z}$$
+$$x_1=z$$
+
+$$x_2=\dot{z}$$
+
+$$x_3=\ddot{z}$$
 
 $$\begin{bmatrix}\dot{x}_1\\\\\dot{x}_2\\\\\dot{x}_3\end{bmatrix}
 =\begin{bmatrix}0&1&0\\\\0&0&1\\\\-2&23&-5\end{bmatrix}
