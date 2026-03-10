@@ -1,7 +1,7 @@
 # control_engineering_P_3
 ## 2019732056 최진환
 ### P3.1
-![P3.1](./image/1.png)
+![P3.1](./image/1.png)  
 운동방정식은  
 
 $$M\ddot{y}+b\dot{y}+ky=F(t)$$
