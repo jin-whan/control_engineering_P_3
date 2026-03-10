@@ -1,7 +1,7 @@
 # control_engineering_P_3
 ## 2019732056 최진환
 ### P3.1
-![P3.1](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fc2H1Lm%2FbtsQ3jInng2%2FAAAAAAAAAAAAAAAAAAAAAFgqCDpDqnoDiAWcyM2A0f3m1yoa1u7-SeHHAlU-cA1y%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3DU0SO1GlPV8lsBnCvfkMVArUu4qM%253D)
+![P3.1](./image/1.png)
 운동방정식은  
 
 $$M\ddot{y}+b\dot{y}+ky=F(t)$$
@@ -34,7 +34,7 @@ $$y=
 $$
 
 ### P3.3
-![P3.3](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FcwnAUe%2FbtsQ5jUHjK6%2FAAAAAAAAAAAAAAAAAAAAANx0Qye7i0f3rlkHQCBQqMd-WGzLwskAHwWW5RZMrj8m%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3DUmcpbmtzCPFgI%252FgyB9VUwqt4fUE%253D)
+![P3.3](./image/2.png)
 
 $$x_1(t)=i_L(t)$$
 
@@ -63,8 +63,7 @@ $$\begin{bmatrix}\dot{x}_1\\\\\dot{x}_2\end{bmatrix}
 부분해답과 다르지만 A의 2,1 에서 1/L 이 나오려면 그림과 같이 커패시터의 극성을 사용해야하고 그 극성을 그대로 KCL에 사용하면 부분해답과 부호가 다른 값이 나오게 됩니다.
 
 ### P3.5
-![P3.5_1](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbSCDKD%2FbtsQ2zdK7DB%2FAAAAAAAAAAAAAAAAAAAAAD3a4wd6Go16pQm2Vqwwfqu42_dTkwRQvQC3xA9TA9MP%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3DnNFbyqW%252FXrn7UtAJ2WK5GQ3OFEo%253D)
-![P3.5_2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbmBtbj%2FbtsQ2up7CP0%2FAAAAAAAAAAAAAAAAAAAAAEvaP9qv3d7SnWKHF9XyVej7Q-8L4aukmLA9hzhjwlXN%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3D9yGxGFomfP2WyiJKI2qdUgAdkXo%253D)
+![P3.5_1](./image/3.png)
 
 (a) 순방향 전달함수 G(s)=Y(s)/( R(s)-Y(s) ) 는
 
@@ -99,7 +98,7 @@ $$y(t)=\begin{bmatrix}2&1&0\end{bmatrix}
 \begin{bmatrix}x_1\\\\x_2\\\\x_3\end{bmatrix}$$
 
 ### P3.12
-![P3.12](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FRs9C8%2FbtsQ3iQfPQO%2FAAAAAAAAAAAAAAAAAAAAAM7nhy_TzMlwE9jdVzsqLGUFWbrNSsFIIvNg0DzyR_JC%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3DHz%252FVNmXb%252BzbTPLNQTPy7Z8tgqPc%253D)
+![P3.12](./image/4.png)
 
 ```
 syms b0 b1 a0 a1 a2 s
@@ -132,7 +131,7 @@ $$\Phi(t)=
 $$
 
 ### P3.17
-![P3.17](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fs5RGm%2FbtsQ5iO2pPC%2FAAAAAAAAAAAAAAAAAAAAAE1gBdoHCqEbsTDuopXnt5QP4OJtLl-t56pMF7DBPLO1%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3D%252BmVe3hFHX76jkV%252BQpLJSbwk4o8c%253D)
+![P3.17](./image/5.png)
 
 ```
 syms s
